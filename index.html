@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigMusic</title>
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="icon" href="oie_uuyHmZzwWrDV.png" type="Logo">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="vecteezy_audio-spectrum-motion-animation_49102227.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Container principal -->
+    <div class="player-container">
+        <h1>BigMusic</h1>
+        <div class="audio-player">
+            <audio id="audioPlayer"></audio>
+        </div>
+
+        <div class="progress-container">
+            <input type="range" id="progressBar" class="progress-bar" value="0" step="1" min="0">
+            <div id="timer">00:00 / 00:00</div>
+        </div>
+
+        <br><br>
+        
+        <div class="controls">
+            <button id="speedUpBtn" class="control-btn">⏩</button>
+            <button id="prevBtn" class="control-btn">⏮️</button>
+            <button id="playPauseBtn" class="control-btn">▶️/⏸️</button>
+            <button id="nextBtn" class="control-btn">⏭️</button>
+            <button id="randomBtn" class="control-btn">🔀</button>
+        </div>
+
+        <!-- Título da música -->
+        <div id="current-song-title">Tocando agora: <span id="song-title"></span></div>
+        <br>
+
+        <!-- Controle de volume -->
+        <div class="volume-control">
+            <button class="volume-btn">🔊</button>
+            <input type="range" class="progress-bar" min="0" max="100" value="50">
+        </div>
+        <audio id="audio-element" src="your-audio-file.mp3"></audio>
+        
+        <!-- Playlist -->
+        <button id="togglePlaylist" class="toggle-btn">🎵 Playlist</button>
+    
+        <div class="playlist" id="playlist">
+            <h2>Playlist</h2>
+            <ul id="songList">
+                <li></li>
+            </ul>
+        </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
