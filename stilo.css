@@ -27,7 +27,7 @@ body {
 .player-container {
     text-align: center; /* Centraliza o texto dentro do container */
     background-color: rgba(44, 44, 44, 0.85); /* Fundo semi-transparente */
-    padding: 15px; /* Espaçamento interno */
+    padding: 25px; /* Espaçamento interno */
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.6); /* Sombra para destaque */
     width: 90%; /* Largura de 90% da tela */
