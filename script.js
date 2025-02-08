@@ -1,4 +1,15 @@
 const songs = [
+    { title: "A vida É Desafio", src: "Musica/A vida É Desafio   Nada Como Um Dia Após O Outro Dia (Chora Agora)-7c280b9f3f7fce91bedd21a9ebdd9ced.mp3" },
+    { title: "Da ponte pra cá", src: "Musica/Da ponte pra cá   Nada Como Um Dia Após O Outro Dia (Ri Depois)-731b6d884eabdb384ce661c28a979dd8.mp3" },
+    { title: "Estilo Cachorro", src: "Musica/Estilo Cachorro   Nada Como Um Dia Após O Outro Dia (Ri Depois)-a045fd392d5bb6f9b9d97f47b1df1254.mp3" },
+    { title: "Eu sou 157", src: "Musica/Eu sou 157   Nada Como Um Dia Após O Outro Dia (Chora Agora)-7c588ddf875c8af0655b539025375991.mp3" },
+    { title: "Negro Drama", src: "Musica/Negro Drama   Nada Como Um Dia Após O Outro Dia (Chora Agora)-7b1bd59979c4a6cfe4ce245b813d85d9.mp3" },
+    { title: "Pipa Soul", src: "Musica/PIPA SOUL   Outskirts Tribe   (Official Clip)-3d38706dee850b2e1fa0291a1478f09f.mp3" },
+    { title: "Capítulo 4 Versículo 3", src: "Musica/Racionais   Sobrevivendo no Inferno    Capítulo 4 Versículo 3-feab0788f7f243c2aa333765d7dc8bdb.mp3" },
+    { title: "Diário de um Detento", src: "Musica/Racionais   Sobrevivendo no Inferno   Diário de um Detento-f386b57bac4692bc0e9245c7873abcba.mp3" },
+    { title: "Nosso Plano", src: "Musica/Tribo da Periferia   Nosso Plano (Official Music Video)-b5a8462ca5936823cde752f1c1145708.mp3" },
+    { title: "Unpredictable", src: "Musica/Tribo da Periferia   Unpredictable (Official Music Video)-f942eb5ee76cf84293fe480337ac0e8d.mp3" },
+    { title: "Vida Loka", src: "Musica/Vida Loka Parte 2   Nada Como Um Dia Após O Outro Dia (Ri Depois)-038638d8da9e301cd269443df26cedf4.mp3" },
     { title: "", src: "" },
     
 ];
